@@ -6,8 +6,9 @@ from tensorflow.keras import layers
 import os
 import matplotlib.pyplot as plt
 
-path1 = '/content/drive/My Drive/GAN_IM/MR_Pair'
-path2 = '/content/drive/My Drive/GAN_IM/CT_Pair'
+MRI_Path = '/content/drive/My Drive/GAN_IM/MR_Pair'
+CT_Path = '../data/_Data/CT_test.nii.gz'
+
 
 IMG_WIDTH = 512
 IMG_HEIGHT = 512
