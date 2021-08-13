@@ -31,7 +31,7 @@ import time
 
 path_MRI = '../../data/MRI_Data'
 path_CT = '../../data/CT_Data'
-checkpoint_path = "/content/drive/MyDrive/GAN_IM/checkpoints/Keras_Test"
+checkpoint_path = '../../checkpoints'
 
 input_img_size = (512, 512, 3)
 
@@ -91,6 +91,6 @@ cycle_gan_model.fit(
 )
 
 
-checkpoint_path = '../../checkpoints'
+
 gen_model = cycle_gan_model.gen_G
 gen_model.save(checkpoint_path)
