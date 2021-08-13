@@ -25,3 +25,5 @@ have a folder to save the weights as well. Feel free to change some of the learn
 rates or epochs in the train.py file. 
 
 Run train.py and this will train the model and save the wieghts. Then run test.py to evaluate the model performance. 
+
+If running into issues, check the python files for additional insturctions. 
